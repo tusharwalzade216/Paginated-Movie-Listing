@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { Col, Row } from "react-bootstrap";
 
+import styles from "./cardList.module.css";
 import { Button, Title } from "../../atoms";
 import { Card, CardSkeleton } from "../../molecules";
 
@@ -8,7 +9,7 @@ const CardList = ({ isLoading, list, title }) => (
   <>
     <Title as="h2" className="mt-2">{title}</Title>
     <Row
-      className="g-4 mx-0 my-2"
+      className={`g-4 mx-0 my-2 ${styles.container}`}
       lg={5}
       md={3}
       sm={2}

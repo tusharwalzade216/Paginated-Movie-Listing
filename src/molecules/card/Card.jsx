@@ -14,6 +14,7 @@ const Card = ({ footer, header, imageUrl }) => (
     <BCard.Img
       alt={header}
       className={styles.image}
+      loading="lazy"
       src={imageUrl}
       variant="top"
     />
