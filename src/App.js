@@ -1,10 +1,12 @@
 import "./styles.css";
-import { MovieList } from "./components";
+import { ErrorBoundary, MovieList } from "./components";
 
 export default function App() {
   return (
     <div className="App">
-      <MovieList />
+      <ErrorBoundary>
+        <MovieList />
+      </ErrorBoundary>
     </div>
   );
 }

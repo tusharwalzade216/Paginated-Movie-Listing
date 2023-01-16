@@ -6,7 +6,7 @@ import { Tooltip } from "../../atoms";
 
 const TooltipOverlay = ({ text }) => (
     <OverlayTrigger
-        placement="right"
+        placement="bottom"
         delay={{ show: 250, hide: 400 }}
         overlay={
             <Tooltip id={text}>

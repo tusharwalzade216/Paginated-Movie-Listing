@@ -3,10 +3,15 @@
 This project demonstrates the movie list with pagination support.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Technology Stack](#technology-stack-libraries-credits)
-3. [Author](#author)
-4. [Licence](#licence)
+1. [Demo](#demo)
+2. [Installation](#installation)
+3. [Technology Stack](#technology-stack-libraries-credits)
+4. [Author](#author)
+5. [Licence](#licence)
+
+## Demo
+
+Live demo [here](https://tusharwalzade216.github.io/Paginated-Movie-Listing/)
 
 ## Installation
 

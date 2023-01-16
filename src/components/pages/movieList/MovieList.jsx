@@ -3,8 +3,8 @@ import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { CardList } from "../../../orgamisms";
-import { Alert, Pagination } from "../../../molecules";
 import { getMoviesByTitle } from "../../../services";
+import { Alert, Pagination } from "../../../molecules";
 
 const MovieList = () => {
   const [noOfPages, setNoOfPages] = useState(0);
