@@ -4,8 +4,8 @@ This project demonstrates the movie list with pagination support.
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Technology Stack](#technology-stack)
-3. [Authors](#authors)
+2. [Technology Stack](#technology-stack-libraries-credits)
+3. [Author](#author)
 4. [Licence](#licence)
 
 ## Installation
