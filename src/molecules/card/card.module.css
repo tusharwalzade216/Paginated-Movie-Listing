@@ -1,0 +1,9 @@
+.cardTitle > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image {
+    aspect-ratio: 1;
+}
