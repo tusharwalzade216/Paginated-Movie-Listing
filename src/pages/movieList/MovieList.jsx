@@ -2,9 +2,8 @@ import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { CardList } from "../../../orgamisms";
-import { getMoviesByTitle } from "../../../services";
-import { Alert, Pagination } from "../../../molecules";
+import { getMoviesByTitle } from "../../services";
+import { Alert, CardList, Pagination } from "../../components";
 
 const MovieList = () => {
   const [noOfPages, setNoOfPages] = useState(0);

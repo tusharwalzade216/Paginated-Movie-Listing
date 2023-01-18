@@ -1,5 +1,6 @@
 import "./styles.css";
-import { ErrorBoundary, MovieList } from "./components";
+import { MovieList } from "./pages";
+import { ErrorBoundary } from "./components";
 
 export default function App() {
   return (

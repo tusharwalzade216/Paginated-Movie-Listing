@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Alert } from "../../molecules";
+import { Alert } from "../molecules";
 
 class ErrorBoundary extends React.Component {
     constructor(props) {
